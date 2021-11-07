@@ -8,10 +8,17 @@
 
 body {
     font-family: Poppins, sans-serif;
-    text-decoration: none;
     color: #2e2f30;
 }
 
-h1 {
+body a {
+    /* To remove underlines from links */
+    text-decoration: none;
+}
+
+h1, h2 {
     font-family: Cabin, sans-serif;
+    text-transform: uppercase;
+    color: green;
+    letter-spacing: 4px;
 }
