@@ -39,3 +39,16 @@ h1, h2 {
     margin-right: 30px;
     font-size: 120%;
 }
+
+#cover-outer {
+    height: 600px;
+    width: 100%;
+    /* overflow keeps the image below the title */
+    overflow: hidden;
+}
+
+#cover-image {
+    background: url('../images/cover-image.jpg') no-repeat center center;
+    height: 100%;
+    width: 100%;
+}
