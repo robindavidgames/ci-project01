@@ -27,8 +27,8 @@ h1, h2 {
     line-height: 75px;
 }
 
-#main-title {
-    margin-left: 30px;
+#title {
+    /* margin-left: 30px; */
     float: left;
     font-size: 240%;
 }
@@ -40,10 +40,16 @@ h1, h2 {
     font-size: 120%;
 }
 
+#title-cover-image {
+    width: 90vw;
+    margin: 0 auto;
+}
+
 #title-cta {
     clear: right;
     float: left;
     width: 50%
+
 }
 
 #tagline {
@@ -72,5 +78,40 @@ h1, h2 {
 }
 
 #about {
+    clear: both;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.right-text {
+    height: 200px;
+    float: right;
     clear: right;
+    text-align: left;
+}
+
+.left-image {
+    background: url('../images/cover-image.jpg') no-repeat center center;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.left-text {
+    height: 200px;
+    float: left;
+    clear: left;
+}
+
+.right-image {
+    background: url('../images/cover-image.jpg') no-repeat center center;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#meeting-schedule {
+    clear: both;
+    width: 90vw;
+    margin: 0 auto;
 }
