@@ -139,3 +139,28 @@ header {
     margin: 0 auto;
     padding-top: 30px;
 }
+
+/* Code modified from Love Running sample project */
+.location {
+    color: whitesmoke;
+    background-color: rgba(0, 128, 0, 0.7);
+    width: 25%;
+    height: 200px;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Override the h2 elements in the meetup section as they need greater contrast */
+.location h2 {
+    color: whitesmoke;
+}
+
+footer {
+    clear: both;
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
