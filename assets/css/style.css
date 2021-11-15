@@ -11,8 +11,8 @@ body {
     color: #2e2f30;
 }
 
-body a {
-    /* To remove underlines from links */
+/* To remove underlines from links */
+body a {    
     text-decoration: none;
 }
 
@@ -23,10 +23,12 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+/* This is in effect in Contact and Games pages */
 #main-title, #navigation {
     line-height: 75px;
 }
 
+/* This is in effect in Index */
 #title {
     /* margin-left: 30px; */
     float: left;
@@ -40,16 +42,17 @@ h1, h2 {
     font-size: 120%;
 }
 
+/* Div that contains both the title and the cover image, used to establish margins for both blocks */
 #title-cover-image {
     width: 90vw;
     margin: 0 auto;
 }
 
+/* Div that contains both the title and call to action link */
 #title-cta {
     clear: right;
     float: left;
     width: 50%
-
 }
 
 #tagline {
@@ -61,8 +64,10 @@ h1, h2 {
     text-transform: uppercase;
     color: green;
     letter-spacing: 4px;
+    padding-top: 30px;
 }
 
+/* Following 2 rules adjust the cover image in Index */
 #cover-outer {
     height: 300px;
     width: 50%;
@@ -77,10 +82,12 @@ h1, h2 {
     width: 100%;
 }
 
+/* Following rules used in the About Us section in Index */
 #about {
     clear: both;
     width: 90vw;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .right-text {
@@ -110,8 +117,10 @@ h1, h2 {
     float: right;
 }
 
+/* Rules for the meeting schedules */
 #meeting-schedule {
     clear: both;
     width: 90vw;
     margin: 0 auto;
+    padding-top: 30px;
 }
