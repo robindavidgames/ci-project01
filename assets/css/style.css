@@ -163,4 +163,11 @@ footer {
     width: 90vw;
     margin: 0 auto;
     padding-top: 30px;
+    font-size: 220%;
+    text-align: center;
+}
+
+footer a {
+    color: green;
+    padding: 10px;
 }
