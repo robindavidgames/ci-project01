@@ -89,6 +89,8 @@ header {
 
 #cover-image {
     background: url('../images/cover-image.jpg') no-repeat center center;
+    /* this scales the background image */
+    background-size: 800px;
     height: 100%;
     width: 100%;
 }
