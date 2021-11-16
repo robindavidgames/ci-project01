@@ -115,13 +115,6 @@ header {
     overflow: auto;
 }
 
-.left-image {
-    background: url('../images/cover-image.jpg') no-repeat center center;
-    height: 200px;
-    width: 30%;
-    float: left;
-}
-
 .left-text {
     height: 200px;
     float: left;
@@ -132,11 +125,33 @@ header {
     overflow: auto;
 }
 
+.left-image {
+    /* background: url('../images/cover-image.jpg') no-repeat center center; */
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+
 .right-image {
-    background: url('../images/cover-image.jpg') no-repeat center center;
+    /* background: url('../images/cover-image.jpg') no-repeat center center; */
     height: 200px;
     width: 30%;
     float: right;
+}
+
+#about-image-1 {
+    background: url('../images/about-us-1.jpg') no-repeat center center;
+    background-size: 400px;
+}
+
+#about-image-2 {
+    background: url('../images/about-us-2.jpg') no-repeat center center;
+    background-size: 500px;
+}
+
+#about-image-3 {
+    background: url('../images/about-us-3.jpg') no-repeat center center;
+    background-size: 500px;
 }
 
 /* Rules for the meeting schedules */
