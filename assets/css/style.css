@@ -103,7 +103,7 @@ header {
 }
 
 /* Following rules used in the About Us section in Index */
-#about {
+#subpage-header {
     clear: both;
     width: 90vw;
     margin: 0 auto;
@@ -144,48 +144,6 @@ header {
     height: 200px;
     width: 30%;
     float: right;
-}
-
-.game-text {
-    /* height: 200px; */
-    float: right;
-    clear: right;
-    text-align: left;
-    width: 65%;
-    padding-left: 5%;
-    padding-top: 30px;
-}
-
-/* .left-game-text {
-    /* height: 200px; */
-    float: left;
-    clear: left;
-    width: 65%;
-    padding-right: 5%;
-    padding-top: 30px;
-} */
-
-.game-image-container {
-    float: left;
-    width: 30%;
-}
-
-/* .right-game-image-container {
-    float: right;
-    width: 30%;
-} */
-
-.game-image {
-    max-height: 300px;
-    max-width: 300px;
-    /* float: left; */
-    margin: auto;
-    display: block;
-}
-
-article {
-    clear: both;
-    padding: 30px;
 }
 
 #about-image-1 {
@@ -272,6 +230,56 @@ article {
 .location h2 {
     color: whitesmoke;
 }
+
+/* Rules for Games page */
+
+.game-text {
+    /* height: 200px; */
+    float: right;
+    clear: right;
+    text-align: left;
+    width: 65%;
+    padding-left: 5%;
+    padding-top: 30px;
+    /* height: 300px; */
+}
+
+/* .left-game-text {
+    /* height: 200px; */
+    float: left;
+    clear: left;
+    width: 65%;
+    padding-right: 5%;
+    padding-top: 30px;
+} */
+
+.game-image-container {
+    float: left;
+    width: 30%;
+}
+
+/* .right-game-image-container {
+    float: right;
+    width: 30%;
+} */
+
+.game-image {
+    max-height: 300px;
+    max-width: 300px;
+    /* float: left; */
+    margin: auto;
+    display: block;
+    /* vertical-align: middle; */
+}
+
+article {
+    clear: both;
+    padding: 30px;
+    /* display: block;
+    vertical-align: middle; */
+}
+
+/* Rules for footer */
 
 footer {
     clear: both;
