@@ -40,6 +40,48 @@
             <p>
                 Board Game Designers Ireland is a community group that is only as strong as its members. If you're at all interested, attend one of our meetups - we'd love to chat over a drink! Alternatively, you can get in touch through social media or by filling in the form below.
             </p>
+            
+            <!-- Modified from Coders Cafe code -->
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                    <legend>Get In Touch</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="full name" placeholder="Your name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Your email">
+                    </div>
+                    <div>
+                        <p>
+                            Which Playtest group are you closest to?
+                        </p>
+
+                        <input id="Dublin-radio" name="location" value="Playtest Dublin" type="radio">
+			            <label for="Dublin-radio">Playtest Dublin</label>
+
+                        <input id="Galyway-radio" name="location" value="Playtest Galway" type="radio">
+			            <label for="Galway-radio">Playtest Galway</label>
+
+                        <input id="Cork-radio" name="location" value="Playtest Cork" type="radio">
+			            <label for="Cork-radio">Playtest Cork</label>
+
+                        <input id="Belfast-radio" name="location" value="Playtest Belfast" type="radio">
+			            <label for="Belfast-radio">Playtest Belfast</label>
+
+                        <input id="None-radio" name="location" value="None/Other" type="radio">
+			            <label for="None-radio">None/Other</label>
+                    </div>
+                    <div>
+                        <label for="message">What's your message?</label>
+			            <br>
+			            <textarea id="message" rows="4" cols="87" name="message"></textarea>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset Form">
+            </form>
         </section>
 
         <!-- Footer with social media links -->
