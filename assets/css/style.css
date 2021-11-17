@@ -146,7 +146,7 @@ header {
     float: right;
 }
 
-.right-game-text {
+.game-text {
     /* height: 200px; */
     float: right;
     clear: right;
@@ -156,31 +156,36 @@ header {
     padding-top: 30px;
 }
 
-.left-game-text {
+/* .left-game-text {
     /* height: 200px; */
     float: left;
     clear: left;
     width: 65%;
     padding-right: 5%;
     padding-top: 30px;
-}
+} */
 
-.left-game-image-container {
+.game-image-container {
     float: left;
     width: 30%;
 }
 
-.right-game-image-container {
+/* .right-game-image-container {
     float: right;
     width: 30%;
-    clear: right;
-}
+} */
 
 .game-image {
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
     /* float: left; */
     margin: auto;
     display: block;
+}
+
+article {
+    clear: both;
+    padding: 30px;
 }
 
 #about-image-1 {
