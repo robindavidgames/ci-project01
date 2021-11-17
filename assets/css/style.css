@@ -146,6 +146,43 @@ header {
     float: right;
 }
 
+.right-game-text {
+    /* height: 200px; */
+    float: right;
+    clear: right;
+    text-align: left;
+    width: 65%;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.left-game-text {
+    /* height: 200px; */
+    float: left;
+    clear: left;
+    width: 65%;
+    padding-right: 5%;
+    padding-top: 30px;
+}
+
+.left-game-image-container {
+    float: left;
+    width: 30%;
+}
+
+.right-game-image-container {
+    float: right;
+    width: 30%;
+    clear: right;
+}
+
+.game-image {
+    height: 300px;
+    /* float: left; */
+    margin: auto;
+    display: block;
+}
+
 #about-image-1 {
     background: url('../images/about-us-1.jpg') no-repeat center center;
     background-size: 400px;
