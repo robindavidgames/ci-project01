@@ -57,6 +57,19 @@ header {
 #title-cover-image {
     width: 90vw;
     margin: 0 auto;
+    height: 500px;
+    background-color: green;
+    clear: both;
+}
+
+#title-cover-image h1,  #title-cover-image a{
+    color: whitesmoke;
+    padding: 30px;
+}
+
+#title-cover-image p {
+    padding: 30px;
+    color: rgb(190, 190, 190)
 }
 
 /* Div that contains both the title and call to action link */
@@ -87,7 +100,7 @@ header {
 
 /* Following 2 rules adjust the cover image in Index */
 #cover-outer {
-    height: 300px;
+    /* height: 600px; */
     width: 50%;
     /* overflow keeps the image below the title */
     overflow: hidden;
@@ -98,7 +111,7 @@ header {
     background: url('../images/cover-image.jpg') no-repeat center center;
     /* this scales the background image */
     background-size: 800px;
-    height: 100%;
+    height: 500px;
     width: 100%;
 }
 
@@ -148,7 +161,7 @@ header {
 
 #about-image-1 {
     background: url('../images/about-us-1.jpg') no-repeat center center;
-    background-size: 400px;
+    background-size: 450px;
 }
 
 #about-image-2 {
@@ -242,6 +255,10 @@ header {
     padding-left: 5%;
     padding-top: 30px;
     /* height: 300px; */
+}
+
+.about-section {
+    padding-top: 50px;
 }
 
 .game-image-container {
