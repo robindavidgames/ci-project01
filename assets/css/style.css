@@ -267,15 +267,15 @@ header {
     /* vertical-align: middle; */
 }
 
-article {
+.game-container {
     clear: both;
     padding: 30px;
     /* display: block;
-    vertical-align: middle; */
+    vertical-align: middle;  */
 }
 
 /* Rules for contact form */
-/* Modified from https://www.w3schools.com/css/css_form.asp */
+/* Adapted from https://www.w3schools.com/css/css_form.asp */
 
 input, textarea {
     width: 100%;
