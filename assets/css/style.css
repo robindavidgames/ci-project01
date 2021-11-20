@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@300&display=swap');
 
+/* Remove padding and margin by default. */
 * {
     padding: 0;
     margin: 0;
     border: none;
 }
 
+/* Establish default body font and colour. */
 body {
     font-family: Poppins, sans-serif;
     color: #2e2f30;
 }
 
-/* To remove underlines from links */
+/* Remove underlines from links */
 body a {    
     text-decoration: none;
 }
 
+/* Establish defaults for headers. Particularly transform into uppercase, so standard case can be used in HTML file. */
 h1, h2 {
     font-family: Cabin, sans-serif;
     text-transform: uppercase;
@@ -28,6 +31,7 @@ h3 {
     padding-bottom: 10px;
 }
 
+/* Header width relative to device */
 header {
     width: 90vw;
     margin: 0 auto;
@@ -115,14 +119,15 @@ header {
     width: 100%;
 }
 
-/* Following rules used in the About Us section in Index */
-#subpage-header {
+/* Establish margins and padding for the main content of each page */
+#main-content {
     clear: both;
     width: 90vw;
     margin: 0 auto;
     padding-top: 30px;
 }
 
+/* Following rules used in the About Us section in Index */
 .right-text {
     height: 200px;
     float: right;
@@ -257,10 +262,7 @@ header {
     /* height: 300px; */
 }
 
-.about-section {
-    padding-top: 50px;
-}
-
+/* Hmmm - if I comment this out, it has no effect... */
 .game-image-container {
     float: left;
     width: 30%;
