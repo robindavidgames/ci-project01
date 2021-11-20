@@ -120,7 +120,7 @@ header {
 }
 
 /* Establish margins and padding for the main content of each page */
-#main-content {
+.main-content {
     clear: both;
     width: 90vw;
     margin: 0 auto;
@@ -150,20 +150,20 @@ header {
     overflow: auto;
 }
 
+/* Left image and right image are established as classes in case more sections are added to About Us */
 .left-image {
-    /* background: url('../images/cover-image.jpg') no-repeat center center; */
     height: 200px;
     width: 30%;
     float: left;
 }
 
 .right-image {
-    /* background: url('../images/cover-image.jpg') no-repeat center center; */
     height: 200px;
     width: 30%;
     float: right;
 }
 
+/* Change these to regular images */
 #about-image-1 {
     background: url('../images/about-us-1.jpg') no-repeat center center;
     background-size: 450px;
@@ -180,17 +180,10 @@ header {
 }
 
 /* Rules for the meeting schedules */
-#meeting-schedule {
-    clear: both;
-    width: 90vw;
-    margin: 0 auto;
-    padding-top: 30px;
-}
 
-/* Code modified from Love Running sample project */
+/* Code adapted from Love Running sample project */
 .location {
     color: whitesmoke;
-    /* background-color: rgba(0, 128, 0, 0.7); */
     width: 25%;
     height: 220px;
     padding: 30px 0 0 10px;
@@ -200,47 +193,44 @@ header {
     box-sizing: border-box;
 }
 
+/* These four divs Use a linear gradient to fake a transparent colour overlaying an the image */
 #dublin {
     background:
-    /* Use a linear gradient to fake a transparent colour overlay on the image */
         linear-gradient(
             rgba(0, 128, 0, 0.7),
             rgba(0, 128, 0, 0.7)
         ), 
-        url(/assets/images/dublin.jpg) no-repeat center center;
+        url(../images/dublin.jpg) no-repeat center center;
     background-size: 500px;
 }
 
 #galway {
     background:
-    /* Use a linear gradient to fake a transparent colour overlay on the image */
         linear-gradient(
             rgba(0, 128, 0, 0.7),
             rgba(0, 128, 0, 0.7)
         ), 
-        url(/assets/images/galway.jpg) no-repeat center center;
+        url(../images/galway.jpg) no-repeat center center;
     background-size: 500px;
 }
 
 #cork {
     background:
-    /* Use a linear gradient to fake a transparent colour overlay on the image */
         linear-gradient(
             rgba(0, 128, 0, 0.7),
             rgba(0, 128, 0, 0.7)
         ), 
-        url(/assets/images/cork.jpg) no-repeat center center;
+        url(../images/cork.jpg) no-repeat center center;
     background-size: 500px;
 }
 
 #belfast {
     background:
-    /* Use a linear gradient to fake a transparent colour overlay on the image */
         linear-gradient(
             rgba(0, 128, 0, 0.7),
             rgba(0, 128, 0, 0.7)
         ), 
-        url(/assets/images/belfast.jpg) no-repeat center center;
+        url(../images/belfast.jpg) no-repeat center center;
     background-size: 500px;
 }
 
