@@ -42,7 +42,6 @@ header {
     line-height: 75px;
 }
 
-/* This is in effect in Index */
 #main-title {
     /* margin-left: 30px; */
     float: left;
@@ -351,6 +350,15 @@ footer a {
 /* For screens with width 1200px and below */
 @media screen and (max-width: 1200px) {
 
+    #main-title {
+        float: left;
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
     /* Location boxes in meetup section increase in length to give contents more space. */
     .location {
         height: 300px;
@@ -384,5 +392,56 @@ footer a {
     .game-container {
         clear: both;
         padding: 30px;
+    }
+}
+
+/* For screens with width 1028px and below */
+@media screen and (max-width: 1028px) {
+
+    /* Centre title and push navigation down beneath it */
+    #main-title {
+        float: left;
+        font-size: 170%;
+        /* margin: 0 auto;
+        clear: both; */
+    }
+
+    #navigation {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+}
+
+/* For screens with width 750px and below */
+/* This is the resolution where "join one of our events breaks over 2 lines" */
+@media screen and (max-width: 750px) {
+
+    #title-cta {
+        clear: both;
+        float: left;
+        width: 100%
+    }
+
+    #cover-outer {
+        /* height: 600px; */
+        width: 100%;
+        /* overflow keeps the image below the title */
+        overflow: hidden;
+        float: left;
+        clear: both;
+    }
+
+    #title-cover-image h1 {
+        padding: 30px 30px 10px 30px;
+    }
+
+    #call-to-action {
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
+        padding: 15px 0px;
     }
 }
