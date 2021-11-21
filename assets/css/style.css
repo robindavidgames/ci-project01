@@ -265,7 +265,7 @@ header {
     /* height: 300px; */
 }
 
-/* Hmmm - if I comment this out, it has no effect... */
+/* Hmmm - if I comment this out, it causes problems on smaller screens */
 .game-image-container {
     float: left;
     width: 30%;
@@ -275,7 +275,7 @@ header {
     max-height: 300px;
     max-width: 300px;
     /* float: left; */
-    margin: auto;
+    margin: 0 auto;
     display: block;
     /* vertical-align: middle; */
 }
@@ -345,4 +345,44 @@ footer {
 footer a {
     color: green;
     padding: 10px;
+}
+
+/* Responsive design */
+/* For screens with width 1200px and below */
+@media screen and (max-width: 1200px) {
+
+    /* Location boxes in meetup section increase in length to give contents more space. */
+    .location {
+        height: 300px;
+    }
+
+    /* Divs on Games page will stack rather than floating left and right. */
+    .game-text {
+        float: none;
+        clear: both;
+        text-align: left;
+        width: 80%;
+        padding-left: 0%;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    
+    .game-image-container {
+        float: none;
+        width: 50%;
+        clear: both;
+        margin: 0 auto;
+    }
+    
+    .game-image {
+        max-height: 300px;
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .game-container {
+        clear: both;
+        padding: 30px;
+    }
 }
