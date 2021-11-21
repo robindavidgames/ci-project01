@@ -55,6 +55,16 @@ header {
     /* margin-right: 30px; */
     margin-left: 30px;
     font-size: 120%;
+    /* color: green; */
+}
+
+#navigation a {
+    color: green;
+}
+
+/* To underline navigation link when hovered. Modified from the Love Running sample. */
+#navigation a:hover {
+    border-bottom: 1px solid green;
 }
 
 /* Div that contains both the title and the cover image, used to establish margins for both blocks */
@@ -117,6 +127,19 @@ header {
     background-size: 800px;
     height: 500px;
     width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+/* Adapted from the Love Running sample project */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /* Establish margins and padding for the main content of each page */
