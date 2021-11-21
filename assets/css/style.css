@@ -267,7 +267,25 @@ header {
 /* Rules for contact form */
 /* Adapted from https://www.w3schools.com/css/css_form.asp */
 
-input, textarea {
+#contact-form {
+    /* clear: both; */
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+legend {
+    color: green;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+.input-field {
+    padding-top: 30px;
+}
+
+#name, #email, #message {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -275,6 +293,10 @@ input, textarea {
     border: 2px solid green;
     border-radius: 4px;
 }
+
+/* #dublin-radio, #galway-radio, #cork-radio, #belfast-radio, #none-radio {
+    padding-top: 20px;
+} */
 
 input[type=button], input[type=submit], input[type=reset] {
     background-color: green;

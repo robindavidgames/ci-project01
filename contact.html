@@ -42,38 +42,48 @@
             </p>
             
             <!-- Modified from Coders Cafe code -->
-            <form action="https://formdump.codeinstitute.net" method="POST">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
                 <fieldset>
                     <legend>Get In Touch</legend>
-                    <div>
+                    <div class="input-field">
                         <label for="name">Name:</label>
                         <input id="name" type="text" name="full name" placeholder="Your name">
                     </div>
-                    <div>
+                    <div class="input-field">
                         <label for="email">Email:</label>
                         <input id="email" type="email" name="email" placeholder="Your email">
                     </div>
-                    <div>
+                    <div class="input-field">
                         <p>
                             Which Playtest group are you closest to?
                         </p>
 
-                        <input id="Dublin-radio" name="location" value="Playtest Dublin" type="radio">
-			            <label for="Dublin-radio">Playtest Dublin</label>
+                        <div>
+                            <input id="dublin-radio" name="location" value="Playtest Dublin" type="radio">
+                            <label for="dublin-radio">Playtest Dublin</label>
+                        </div>
 
-                        <input id="Galyway-radio" name="location" value="Playtest Galway" type="radio">
-			            <label for="Galway-radio">Playtest Galway</label>
+                        <div>
+                            <input id="galway-radio" name="location" value="Playtest Galway" type="radio">
+                            <label for="galway-radio">Playtest Galway</label>
+                        </div>
 
-                        <input id="Cork-radio" name="location" value="Playtest Cork" type="radio">
-			            <label for="Cork-radio">Playtest Cork</label>
+                        <div>
+                            <input id="cork-radio" name="location" value="Playtest Cork" type="radio">
+                            <label for="cork-radio">Playtest Cork</label>
+                        </div>
 
-                        <input id="Belfast-radio" name="location" value="Playtest Belfast" type="radio">
-			            <label for="Belfast-radio">Playtest Belfast</label>
+                        <div>
+                            <input id="belfast-radio" name="location" value="Playtest Belfast" type="radio">
+                            <label for="belfast-radio">Playtest Belfast</label>
+                        </div>
 
-                        <input id="None-radio" name="location" value="None/Other" type="radio">
-			            <label for="None-radio">None/Other</label>
+                        <div>
+                            <input id="none-radio" name="location" value="None/Other" type="radio">
+                            <label for="none-radio">None/Other</label>
+                        </div>
                     </div>
-                    <div>
+                    <div class="input-field">
                         <label for="message">What's your message?</label>
 			            <br>
 			            <textarea id="message" rows="4" cols="87" name="message"></textarea>
