@@ -285,7 +285,7 @@ legend {
     padding-top: 30px;
 }
 
-#name, #email, #message {
+#name, #email, #message, .button {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
