@@ -132,7 +132,7 @@ header {
     height: 200px;
     float: right;
     clear: right;
-    text-align: left;
+    /* text-align: left; */
     width: 65%;
     padding-left: 5%;
     padding-top: 30px;
@@ -150,33 +150,23 @@ header {
     overflow: auto;
 }
 
-/* Left image and right image are established as classes in case more sections are added to About Us */
-.left-image {
+.left-about-image-container {
     height: 200px;
     width: 30%;
     float: left;
+    overflow: hidden;
 }
 
-.right-image {
+.right-about-image-container {
     height: 200px;
     width: 30%;
     float: right;
+    overflow: hidden;
 }
 
-/* Change these to regular images */
-#about-image-1 {
-    background: url('../images/about-us-1.jpg') no-repeat center center;
-    background-size: 450px;
-}
-
-#about-image-2 {
-    background: url('../images/about-us-2.jpg') no-repeat center center;
-    background-size: 500px;
-}
-
-#about-image-3 {
-    background: url('../images/about-us-3.jpg') no-repeat center center;
-    background-size: 500px;
+/* Scale the image to the width of the container div */
+.about-image {
+    width: 100%;
 }
 
 /* Rules for the meeting schedules */
