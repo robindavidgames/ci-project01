@@ -336,6 +336,15 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
+/* Change button colour when hovering */
+.button:hover {
+    background-color: rgb(0, 188, 0);
+}
+
+/* input:hover {
+    border-color: rgb(0, 188, 0);
+} */
+
 /* Rules for footer */
 
 footer {
