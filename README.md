@@ -1,3 +1,33 @@
+Introduction
+    Purpose and who it is for
+
+Screenshot from ami.responsivedesign.is
+
+Features
+    Screenshots of each feature and explanation on how it benefits the user
+
+Testing
+    Prove site functions as expected
+    Manual testing (ie, form validates input)
+
+Bugs
+    Bugs that were discovered and how they were fixed (ie, the font awesome alt text)
+    Unfixed bugs
+
+Validator Testing
+    HTML
+    CSS
+    Accessibility using Lighthouse
+
+Deployment
+    Steps taken to deploy project
+
+Credits
+    Content
+    Media
+
+
+
 Code Sources
 
 Navigation and meetup section are taken in part from the Love Running sample project.
