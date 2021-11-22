@@ -76,45 +76,41 @@ header {
     clear: both;
 }
 
-#title-cover-image h1,  #title-cover-image a{
-    color: whitesmoke;
-    padding: 30px;
-}
-
-#title-cover-image p {
-    padding: 30px;
-    color: rgb(190, 190, 190)
-}
-
-/* Div that contains both the title and call to action link */
+/* Div that contains the title, tagline, and call to action link */
 #title-cta {
     clear: right;
     float: left;
     width: 50%
 }
 
-/* This is the same ruleset as main-title, but kept seperate in case I want to change anything */
 #title {
-    /* margin-left: 30px; */
     float: left;
     font-size: 220%;
+    padding: 30px;
+    color: whitesmoke;
 }
 
 #tagline {
-    clear: left;
+    /* clear: left;  */
+    padding: 30px;
+    color: rgb(190, 190, 190);  
 }
 
 #call-to-action {
     font-family: Cabin, sans-serif;
     text-transform: uppercase;
-    color: green;
+    /* color: green; */
     letter-spacing: 4px;
-    padding-top: 30px;
+    padding: 60px 30px 30px 30px;
+    /* padding-top: 60px; */
+}
+
+#call-to-action > a {
+    color: whitesmoke;
 }
 
 /* Following 2 rules adjust the cover image in Index */
 #cover-outer {
-    /* height: 600px; */
     width: 50%;
     /* overflow keeps the image below the title */
     overflow: hidden;
@@ -132,7 +128,7 @@ header {
     animation-fill-mode: forwards;
 }
 
-/* Adapted from the Love Running sample project */
+/* Cover image animation adapted from the Love Running sample project */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
