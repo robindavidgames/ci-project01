@@ -150,26 +150,31 @@ header {
 }
 
 /* Following rules used in the About Us section in Index */
+.about-container {
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
 .right-text {
-    height: 200px;
+    /* height: 200px; */
     float: right;
     clear: right;
     /* text-align: left; */
     width: 65%;
     padding-left: 5%;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /* In case text goes beyond the div dimensions */
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .left-text {
-    height: 200px;
+    /* height: 200px; */
     float: left;
     clear: left;
     width: 65%;
     padding-right: 5%;
-    padding-top: 30px;
-    overflow: auto;
+    /* padding-top: 30px; */
+    /* overflow: auto; */
 }
 
 .left-about-image-container {
