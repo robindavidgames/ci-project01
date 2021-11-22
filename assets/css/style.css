@@ -291,10 +291,14 @@ header {
 /* Rules for contact form */
 /* Adapted from https://www.w3schools.com/css/css_form.asp */
 
-#contact-form {
-    /* clear: both; */
+#form-content {
+    clear: both;
     max-width: 600px;
     margin: 0 auto;
+    padding-top: 50px;
+}
+
+#contact-form {
     padding-top: 50px;
 }
 
@@ -318,10 +322,6 @@ legend {
     border-radius: 4px;
 }
 
-/* #dublin-radio, #galway-radio, #cork-radio, #belfast-radio, #none-radio {
-    padding-top: 20px;
-} */
-
 input[type=button], input[type=submit], input[type=reset] {
     background-color: green;
     border: none;
@@ -332,14 +332,14 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
+.radio-choice {
+    padding-top: 16px;
+}
+
 /* Change button colour when hovering */
 .button:hover {
     background-color: rgb(0, 188, 0);
 }
-
-/* input:hover {
-    border-color: rgb(0, 188, 0);
-} */
 
 /* Rules for footer */
 
