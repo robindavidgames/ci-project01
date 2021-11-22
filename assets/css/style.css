@@ -16,6 +16,7 @@ body {
 /* Remove underlines from links */
 body a {    
     text-decoration: none;
+    color: green;
 }
 
 /* Establish defaults for headers. Particularly transform into uppercase, so standard case can be used in HTML file. */
@@ -57,9 +58,9 @@ header {
     /* color: green; */
 }
 
-#navigation a {
+/* #navigation a {
     color: green;
-}
+} */
 
 /* To underline navigation link when hovered. Modified from the Love Running sample. */
 #navigation a:hover {
