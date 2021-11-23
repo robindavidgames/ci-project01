@@ -409,7 +409,7 @@ footer a {
 /* For screens with width 1028px and below */
 @media screen and (max-width: 1028px) {
 
-    /* Centre title and push navigation down beneath it */
+    /* On Games and contact page, centre title and push navigation down beneath it */
     #main-title {
         float: left;
         font-size: 170%;
@@ -438,9 +438,9 @@ footer a {
 }
 
 /* For screens with width 750px and below */
-/* This is the resolution where "join one of our events breaks over 2 lines" */
 @media screen and (max-width: 750px) {
 
+    /* Stack title divs in index */
     #title-cta {
         clear: both;
         float: left;
@@ -460,9 +460,7 @@ footer a {
         padding: 30px 30px 10px 30px;
     }
 
-    #call-to-action {
-        /* padding-top: 15px;
-        padding-bottom: 15px; */
+    /* #call-to-action {
         padding: 15px 0px;
-    }
+    } */
 }
