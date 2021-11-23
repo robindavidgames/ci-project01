@@ -463,4 +463,9 @@ footer a {
     /* #call-to-action {
         padding: 15px 0px;
     } */
+
+    /* Change width of contact us page to be relative to viewport */
+    #form-content {
+        max-width: 90vw;
+    }
 }
