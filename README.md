@@ -67,9 +67,9 @@ Screenshot from ami.responsivedesign.is
 
 ![BGDI contact us page](/assets/images/readme-images/contact.png)
 
-7. Social Media Links
+7. Footer
 
-    Social media links sit at the bottom of every page and provide the visitor another way of getting in touch. All of these links open in external tabs. They are created with Font Awesome glyps.
+    Social media links sit in the footer of every page and provide the visitor another way of getting in touch. All of these links open in external tabs. They are created with Font Awesome glyphs.
 
     This is valuable to the user because it allows them to follow accounts or get in touch through a platform of their choice.
 
@@ -101,17 +101,23 @@ Screenshot from ami.responsivedesign.is
     
 1. HTML
 
+https://validator.w3.org/nu/?doc=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html
+
 2. CSS
 
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
 3. Accessibility using Lighthouse
+The website did very well on the Lighthouse accessbility test for desktop browsers, with an overall performace of 95%. It did less well on Lighthouse for mobile, at only 55%. A large proportion of this was to do with image file sizes, which are considered too high.
 
 ## Deployment
-    Steps taken to deploy project
+    This site was deployed to GitHub Pages. The live link is here: https://robindavidgames.github.io/ci-project01/index.html
 
 ## Credits
 ### Content
 1. Code for putting a transparent colour over a backing image was adapted from https://css-tricks.com/tinted-images-multiple-backgrounds/
 2. The basics for laying out the navigation bar and meetup divs were adapted from the Love Running Project.
+3. Some of the CSS style rules for the contact form were adapted from https://www.w3schools.com/css/css_form.asp
 
 ### Media
 All the following images have a creative commons licence:

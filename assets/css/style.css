@@ -173,6 +173,7 @@ header {
 /* Scale the image to the width of the container div */
 .about-image {
     width: 100%;
+    height: auto;
 }
 
 /* Rules for the meeting schedules */
