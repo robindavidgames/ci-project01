@@ -49,7 +49,7 @@ Screenshot from ami.responsivedesign.is
 
 ![BGDI meetup section is responsive to medium screens](/assets/images/readme-images/meetup-responsive-1.png)
 
-RESPONSIVE IMAGE 2
+![BGDI meetup section is responsive to small screens](/assets/images/readme-images/meetup-responsive-2.png)
 
 5. Games
 
@@ -89,6 +89,7 @@ RESPONSIVE IMAGE 2
 1. Font awesome does not provide alt text for screenreaders. The Social Media links have a function that requires alt text, but are presented as font awesome font icons. The alt text that I had initially provided wasn't working correctly for these. I had to ask on Slack for some guidance on this and was pointed to font awesome documentation that allowed me to establish aria-labels for the icons.
 2. The call to action link was created with a h3 tag (following from a h1 tag for the page title). However, I read that using header tags out of order causes problems for some assistive readers. As such, I instead styled it with a unique ID. For the same reason, I also used CSS to create all upper-case titles, rather than writing them in upper case.
 3. Text in the Meetup section needed greater contrast than other headings used in the page. I created a CSS rule for ".location h2" to override their styling.
+4. Text in the Meetup section was getting squashed on smaller resolution screens and eventually leaving the boudaries of the respective div. To solve this, I created a media query for screens 750px wide and created style rules to increase the width of the divs, to stack them, and to adjust the background images in each div.
 
 ### Unfixed bugs
 
