@@ -88,6 +88,7 @@ SOCIAL MEDIA IMAGE
 
 1. Font awesome does not provide alt text for screenreaders. The Social Media links have a function that requires alt text, but are presented as font awesome font icons. The alt text that I had initially provided wasn't working correctly for these. I had to ask on Slack for some guidance on this and was pointed to font awesome documentation that allowed me to establish aria-labels for the icons.
 2. The call to action link was created with a h3 tag (following from a h1 tag for the page title). However, I read that using header tags out of order causes problems for some assistive readers. As such, I instead styled it with a unique ID. For the same reason, I also used CSS to create all upper-case titles, rather than writing them in upper case.
+3. Text in the Meetup section needed greater contrast than other headings used in the page. I created a CSS rule for ".location h2" to override their styling.
 
 ### Unfixed bugs
 
@@ -110,19 +111,15 @@ SOCIAL MEDIA IMAGE
 ### Content
 1. Code for putting a transparent colour over a backing image was adapted from https://css-tricks.com/tinted-images-multiple-backgrounds/
 2. The basics for laying out the navigation bar and meetup divs were adapted from the Love Running Project.
-    Media
 
+### Media
+All the following images have a creative commons licence:
+1. Cover image: https://pixnio.com/objects/toys/figure-game-plastic-board-path
+2. Dublin image: https://live.staticflickr.com/828/40129539220_6ab2c80255_b.jpg
+3. Galway image: https://live.staticflickr.com/6063/6107383917_7fa8c447cc_b.jpg
+4. Cork image: https://upload.wikimedia.org/wikipedia/commons/4/49/Ballintemple%2C_Cork%2C_Ireland_-_panoramio_%281%29.jpg
+5. Belfast image: https://commons.wikimedia.org/wiki/File:Belfast_City_Hall.jpg
 
+All the images from the About Us section are my own.
 
-Code Sources
-
-Navigation and meetup section are taken in part from the Love Running sample project.
-
-Images
-
-"About Us" images are placed as background images in CSS as decorative images go into CSS while images in HTML are for content. Subsequently, images on the "Irish made games" section are in HTML.
-
-Assistive Technologies:
-
-
-Also, avoidance of all-cap headings. Instead, I have used CSS stying to create all-cap headings.
+All the images and game descriptions on the Games page are promotional material. Each source is given in the games.html file.

@@ -44,7 +44,6 @@ header {
 }
 
 #main-title {
-    /* margin-left: 30px; */
     float: left;
     font-size: 220%;
 }
@@ -52,15 +51,9 @@ header {
 #navigation li {
     float: right;
     list-style-type: none;
-    /* margin-right: 30px; */
     margin-left: 30px;
     font-size: 120%;
-    /* color: green; */
 }
-
-/* #navigation a {
-    color: green;
-} */
 
 /* To underline navigation link when hovered. Modified from the Love Running sample. */
 #navigation a:hover {
@@ -91,7 +84,6 @@ header {
 }
 
 #tagline {
-    /* clear: left;  */
     padding: 30px;
     color: rgb(190, 190, 190);  
 }
@@ -99,10 +91,8 @@ header {
 #call-to-action {
     font-family: Cabin, sans-serif;
     text-transform: uppercase;
-    /* color: green; */
     letter-spacing: 4px;
     padding: 60px 30px 30px 30px;
-    /* padding-top: 60px; */
 }
 
 #call-to-action > a {
@@ -153,25 +143,17 @@ header {
 }
 
 .right-text {
-    /* height: 200px; */
     float: right;
     clear: right;
-    /* text-align: left; */
     width: 65%;
     padding-left: 5%;
-    /* padding-top: 30px; */
-    /* In case text goes beyond the div dimensions */
-    /* overflow: auto; */
 }
 
 .left-text {
-    /* height: 200px; */
     float: left;
     clear: left;
     width: 65%;
     padding-right: 5%;
-    /* padding-top: 30px; */
-    /* overflow: auto; */
 }
 
 .left-about-image-container {
@@ -258,17 +240,15 @@ header {
 /* Rules for Games page */
 
 .game-text {
-    /* height: 200px; */
     float: right;
     clear: right;
     text-align: left;
     width: 65%;
     padding-left: 5%;
     padding-top: 30px;
-    /* height: 300px; */
 }
 
-/* Hmmm - if I comment this out, it causes problems on smaller screens */
+/* This div width is particularly important for smaller screens */
 .game-image-container {
     float: left;
     width: 30%;
@@ -277,17 +257,13 @@ header {
 .game-image {
     max-height: 300px;
     max-width: 300px;
-    /* float: left; */
     margin: 0 auto;
     display: block;
-    /* vertical-align: middle; */
 }
 
 .game-container {
     clear: both;
     padding: 30px;
-    /* display: block;
-    vertical-align: middle;  */
 }
 
 /* Rules for contact form */
@@ -315,6 +291,7 @@ legend {
     padding-top: 30px;
 }
 
+/* General styling for form elements, in keeping with website colour scheme. */
 #name, #email, #message, .button {
     width: 100%;
     padding: 12px 20px;
@@ -324,6 +301,7 @@ legend {
     border-radius: 4px;
 }
 
+/* Specific styling for buttons, making them solid colour. Text colour changed to ensure contrast. */
 input[type=button], input[type=submit], input[type=reset] {
     background-color: green;
     border: none;
@@ -338,7 +316,7 @@ input[type=button], input[type=submit], input[type=reset] {
     padding-top: 16px;
 }
 
-/* Change button colour when hovering */
+/* Change button colour when hovering. */
 .button:hover {
     background-color: rgb(0, 188, 0);
 }
@@ -360,6 +338,7 @@ footer a {
 }
 
 /* Responsive design */
+
 /* For screens with width 1200px and below */
 @media screen and (max-width: 1200px) {
 
@@ -428,13 +407,8 @@ footer a {
     }
 
     #navigation li {
-        /* float: right;
-        list-style-type: none; */
-        /* margin-right: 30px; */
         margin-left: 0px;
         margin-right: 30px;
-        /* font-size: 120%; */
-        /* color: green; */
     }
 
 }
@@ -450,9 +424,7 @@ footer a {
     }
 
     #cover-outer {
-        /* height: 600px; */
         width: 100%;
-        /* overflow keeps the image below the title */
         overflow: hidden;
         float: left;
         clear: both;
@@ -462,11 +434,7 @@ footer a {
         padding: 30px 30px 10px 30px;
     }
 
-    /* #call-to-action {
-        padding: 15px 0px;
-    } */
-
-    /* Change width of contact us page to be relative to viewport */
+    /* Change width of contact us page to be relative to viewport. */
     #form-content {
         max-width: 90vw;
     }
