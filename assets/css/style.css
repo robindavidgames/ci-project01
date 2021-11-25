@@ -208,6 +208,8 @@ header {
 }
 
 /* These four divs Use a linear gradient to fake a transparent colour overlaying an the image */
+/* I learned this technique from https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+/* I learned to scale background images from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
 #dublin {
     background:
         linear-gradient(
