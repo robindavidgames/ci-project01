@@ -41,7 +41,9 @@ ABOUT US IMAGE
 
 4. Meet Up
 
-    This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme. On smaller screens these divs increase in height to accomodate the text. On very small screens, the divs increase in width to 100% and then stack.
+    This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme. On smaller screens these divs increase in height to accomodate the text. 
+    
+    <!-- On very small screens, the divs increase in width to 100% and then stack. -->
 
     This is valuable to the user because it gives them an easy way to become involved. It is the primary call to action on the website.
 
@@ -49,7 +51,7 @@ MEET UP IMAGE
 
 RESPONSIVE IMAGE 1
 
-RESPONSIVE IMAGE 2
+<!-- RESPONSIVE IMAGE 2 -->
 
 5. Games
 
