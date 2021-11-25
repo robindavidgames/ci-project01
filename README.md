@@ -15,7 +15,7 @@ Screenshot from ami.responsivedesign.is
 
     This is valuable to the user because it makes the website purpose clear.
 
-TITLE IMAGE
+![BGDI title section](/assets/images/readme-images/title.png)
 
 2. Navigation Bar
 
@@ -23,13 +23,13 @@ TITLE IMAGE
 
     This is valuable to the user because it allows them to clearly see available pages to navigate them with a single click.
 
-NAVIGATION IMAGE
+![BGDI navigation bar](/assets/images/readme-images/navigation.png)
 
-    Outside of the main page, the title and navigation bar sit side-by-side. On smaller screens, they stack on top of each other.
+* Outside of the main page, the title and navigation bar sit side-by-side. On smaller screens, they stack on top of each other.
 
-ALT TITLE/NAV
+![BGDI alternative navigation bar](/assets/images/readme-images/navigation-alt.png)
 
-RESPONSIVE TITLE/NAV
+![BGDI responsive title section](/assets/images/readme-images/title-responsive.png)
 
 3. About Us
 
@@ -37,21 +37,19 @@ RESPONSIVE TITLE/NAV
 
     This is valuable to the user because it concisely delivers information about Board Game Designers Ireland and conveys the purpose and benefits of the group.
 
-ABOUT US IMAGE
+![BGDI about us section](/assets/images/readme-images/about-us.png)
 
 4. Meet Up
 
-    This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme. On smaller screens these divs increase in height to accomodate the text. 
-    
-    <!-- On very small screens, the divs increase in width to 100% and then stack. -->
+    This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme. On smaller screens these divs increase in height to accomodate the text. On very small screens, the divs increase in width to 100% and then stack.
 
     This is valuable to the user because it gives them an easy way to become involved. It is the primary call to action on the website.
 
-MEET UP IMAGE
+![BGDI meetup section](/assets/images/readme-images/meetup.png)
 
-RESPONSIVE IMAGE 1
+![BGDI meetup section is responsive to medium screens](/assets/images/readme-images/meetup-responsive-1.png)
 
-<!-- RESPONSIVE IMAGE 2 -->
+RESPONSIVE IMAGE 2
 
 5. Games
 
@@ -59,7 +57,7 @@ RESPONSIVE IMAGE 1
 
     This is valuable to the user because it develops confidence in the Board Game Designers Ireland group.
 
-GAMES IMAGE
+![BGDI games page](/assets/images/readme-images/games.png)
 
 6. Contact
 
@@ -67,7 +65,7 @@ GAMES IMAGE
 
     This is valuable to the user because it allows them to get in contact without other social media links or clicking through to an email account.
 
-CONTACT IMAGE
+![BGDI contact us page](/assets/images/readme-images/contact.png)
 
 7. Social Media Links
 
@@ -75,7 +73,7 @@ CONTACT IMAGE
 
     This is valuable to the user because it allows them to follow accounts or get in touch through a platform of their choice.
 
-SOCIAL MEDIA IMAGE
+![BGDI social media links](/assets/images/readme-images/social.png)
 
 ## Testing
 

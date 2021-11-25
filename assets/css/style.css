@@ -434,6 +434,30 @@ footer a {
         padding: 30px 30px 10px 30px;
     }
 
+    /* Location boxes in meetup section increase to 100% width and stack. */
+    .location {
+        height: 220px;
+        width: 100%;
+        clear: both;
+    }
+
+    /* Location images increase in size to accomodate wider box. */
+    #dublin {
+        background-size: 675px;
+    }
+    
+    #galway {
+        background-size: 675px;
+    }
+    
+    #cork {
+        background-size: 675px;
+    }
+    
+    #belfast {
+        background-size: 675px;
+    }
+
     /* Change width of contact us page to be relative to viewport. */
     #form-content {
         max-width: 90vw;
