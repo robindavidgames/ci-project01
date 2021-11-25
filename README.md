@@ -90,25 +90,29 @@ Screenshot from ami.responsivedesign.is
 2. The call to action link was created with a h3 tag (following from a h1 tag for the page title). However, I read that using header tags out of order causes problems for some assistive readers. As such, I instead styled it with a unique ID. For the same reason, I also used CSS to create all upper-case titles, rather than writing them in upper case.
 3. Text in the Meetup section needed greater contrast than other headings used in the page. I created a CSS rule for ".location h2" to override their styling.
 4. Text in the Meetup section was getting squashed on smaller resolution screens and eventually leaving the boudaries of the respective div. To solve this, I created a media query for screens 750px wide and created style rules to increase the width of the divs, to stack them, and to adjust the background images in each div.
+5. When checking accessibilty using Lighthouse, I discovered that I had mistyped meta data "viewport" as "viewpoint", redering it useless. 
 
 ### Unfixed bugs
 
 1. On very small screens, the navigation links stack but do so in a non-ideal order.
-2. On Chrome, some of the responsive design elements do not trigger. Instead, Chrome appears to reduce font sizes so that they are not needed. They do trigger in Firefox. 
-3. In chrome, paragraph text on the contact page does not scale. It is still functional, but less attractive.
+2. On very narrow screens (less than 400pixels) elements on the game page can become misaligned. They are still readable, but not attractive. Additionally, images in the About Us section shrink to very small sizes.
 
 ## Validator Testing
     
 1. HTML
-
+The website passed the HTML validator without issue.
 https://validator.w3.org/nu/?doc=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html
 
 2. CSS
-
+The website passed the CSS validator without issue.
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 3. Accessibility using Lighthouse
-The website did very well on the Lighthouse accessbility test for desktop browsers, with an overall performace of 95%. It did less well on Lighthouse for mobile, at only 55%. A large proportion of this was to do with image file sizes, which are considered too high.
+The website did very well on the Lighthouse accessbility test on both desktop and mobile.
+
+![Lighthouse validator for desktop](/assets/images/readme-images/lighthouse-desktop.png)
+
+![Lighthouse validator for mobile](/assets/images/readme-images/lighthouse-mobile.png)
 
 ## Deployment
     This site was deployed to GitHub Pages. The live link is here: https://robindavidgames.github.io/ci-project01/index.html
