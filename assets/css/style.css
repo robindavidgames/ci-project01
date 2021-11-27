@@ -475,6 +475,7 @@ footer a {
     
     .game-image-container {
         width: 100%;
+        padding-top: 15px;
     }
     
     .game-image {
@@ -490,12 +491,16 @@ footer a {
         float: none;
         clear: both;
         width: 100%;
+        padding-left: 0;
+        padding-bottom: 15px;
     }
     
     .left-text {
         float: none;
         clear: both;
         width: 100%;
+        padding-right: 0;
+        padding-bottom: 15px;
     }
     
     .left-about-image-container {
