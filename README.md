@@ -6,18 +6,22 @@ This is an informational website for board game designers who live in Ireland. I
 
 [Board Game Designers Ireland Website](https://robindavidgames.github.io/ci-project01/index.html)
 
-![BGDI website on various sized screens](/assets/images/readme-images/responsive.jpg)
+![BGDI website on various sized screens](docs/responsive.jpg)
 Screenshot from ami.responsivedesign.is
 
 ## Features
 
 ### Title
 
-* The title section gives a brief outline of Board Game Designer Ireland's purpose and immiedately offers a way for somebody interested to get in touch (by attending a meet up). It provides an internal link to the meetup details. To the right, it has an eye catching image with a subtle zoom animation. On a smaller screen, the text section moves above the main image.
+* The title section gives a brief outline of Board Game Designer Ireland's purpose and immediately offers a way for somebody interested to get in touch (by attending a meet up). It provides an internal link to the meetup details. To the right, it has an eye-catching image with a subtle zoom animation. 
 
 * This is valuable to the user because it makes the website purpose clear.
 
 ![BGDI title section](docs/title.png)
+
+* On a smaller screen, the text section moves above the main image.
+
+![BGDI responsive title section](docs/title-responsive.png)
 
 ### Navigation Bar
 
@@ -27,15 +31,13 @@ Screenshot from ami.responsivedesign.is
 
 ![BGDI navigation bar](docs/navigation.png)
 
-* Outside of the main page, the title and navigation bar sit side-by-side. On smaller screens, they stack on top of each other.
+* Outside of the main page, the title and navigation bar sit side-by-side. On smaller screens, they stack on top of each other - the navigation bar aligns to the left and sits above the title.
 
 ![BGDI alternative navigation bar](docs/navigation-alt.png)
 
-![BGDI responsive title section](docs/title-responsive.png)
-
 ### About Us
 
-* The About Us section further clarifies the activites carried out by the co-op and their wider ambitions. It uses a staggered layout and images to convey the information in a more interesting way. On a smaller screen, the images and text sections are stacked.
+* The About Us section further clarifies the activites carried out by the Board Game Designers Ireland co-op and their wider ambitions. It uses a staggered layout and images to convey the information in a more interesting way. On a smaller screen, the images and text sections are stacked.
 
 * This is valuable to the user because it concisely delivers information about Board Game Designers Ireland and conveys the purpose and benefits of the group.
 
@@ -43,13 +45,17 @@ Screenshot from ami.responsivedesign.is
 
 ### Meet Up
 
-* This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme. On smaller screens these divs increase in height to accomodate the text. On very small screens, the divs increase in width to 100% and then stack.
+* This section gives information about the different regional groups that belong to Board Games Designers Ireland. They have background images with a semi-transparent colour overlay to tie in to the project's colour theme.
 
 * This is valuable to the user because it gives them an easy way to become involved. It is the primary call to action on the website.
 
 ![BGDI meetup section](docs/meetup.png)
 
+* On smaller screens these divs increase in height to accomodate the text.
+
 ![BGDI meetup section is responsive to medium screens](docs/meetup-responsive-1.png)
+
+* On very small screens, the divs increase in width to 100% and then stack.
 
 ![BGDI meetup section is responsive to small screens](docs/meetup-responsive-2.png)
 
@@ -93,28 +99,29 @@ Screenshot from ami.responsivedesign.is
 3. Text in the Meetup section needed greater contrast than other headings used in the page. I created a CSS rule for ".location h2" to override their styling.
 4. Text in the Meetup section was getting squashed on smaller resolution screens and eventually leaving the boudaries of the respective div. To solve this, I created a media query for screens 750px wide and created style rules to increase the width of the divs, to stack them, and to adjust the background images in each div.
 5. When checking accessibilty using Lighthouse, I discovered that I had mistyped meta data "viewport" as "viewpoint", rendering it useless to Chrome. This fixed a lot of bugs when I tried testing the website on Chrome, though these were not visible on Firefox, which is why the typo was missed for so long. 
-6. When testing on my own computer, images in the meetup section were displaying correctly, but not when viewed on other computers. The image links were incorrect but being displayed because they were in my browser cache. I corrected the links to show relative paths.
+6. When testing on my own computer, images in the meetup section were displaying correctly, but not when viewed on other computers. The image links were incorrect but being displayed because they were in my browser cache. I corrected the links to use relative paths.
 7. On very narrow screens (less than 500pixels) elements on the game page became misaligned. Additionally, images in the About Us section shrank to very small sizes, becoming unreadable. To correct this, I added an additional media query to stack elements and limit the width of images.
-8. On very small screens, the navigation links stacked, which would be fine, but they did so in a non-ideal order. To solve this, I added a media query to reduce the font size and padding, keeping the navigation links on the same line.
+8. On very narrow screens, the navigation links stacked, which would be fine, but they did so in a non-ideal order. To solve this, I added a media query to reduce the font size and padding, keeping the navigation links on the same line.
 
-### Outstanding Issues
+### Outstanding Bugs and Issues
 
 None.
 
 ## Validator Testing
     
-1. HTML
-The website passed the HTML validator without issue. [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html)
+1. The website passed the HTML validator without issue. [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html)
 
-2. CSS
-The website passed the CSS validator without issue. [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+2. The website passed the CSS validator without issue. [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobindavidgames.github.io%2Fci-project01%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-3. Accessibility using Lighthouse
-The website did very well on the Lighthouse accessbility test on both desktop and mobile.
+3. The website did very well on the Lighthouse accessbility test on both desktop and mobile.
 
-![Lighthouse validator for desktop](/assets/images/readme-images/lighthouse-desktop.png)
+![Lighthouse validator for desktop](docs/lighthouse-desktop.png)
 
-![Lighthouse validator for mobile](/assets/images/readme-images/lighthouse-mobile.png)
+Lighthouse assessment for desktop.
+
+![Lighthouse validator for mobile](docs/lighthouse-mobile.png)
+
+Lighthouse assessment for mobile.
 
 ## Deployment
 This site was deployed to GitHub Pages. [The live link is here.](https://robindavidgames.github.io/ci-project01/index.html)
