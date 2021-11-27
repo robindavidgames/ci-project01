@@ -122,7 +122,8 @@ This site was deployed to GitHub Pages. [The live link is here.](https://robinda
 ### Content
 1. Code for putting a transparent colour over a backing image was adapted from https://css-tricks.com/tinted-images-multiple-backgrounds/
 2. The basics for laying out the navigation bar and meetup divs were adapted from the Love Running Project.
-3. Some of the CSS style rules for the contact form were adapted from https://www.w3schools.com/css/css_form.asp
+3. The code for animating the main image in index was adapted from the Love Running Project.
+4. Some of the CSS style rules for the contact form were adapted from https://www.w3schools.com/css/css_form.asp
 
 ### Media
 All the following images have a creative commons licence:

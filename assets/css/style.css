@@ -464,3 +464,49 @@ footer a {
         max-width: 90vw;
     }
 }
+
+/* For screens with width 500px and below */
+@media screen and (max-width: 500px) {
+
+    /* Reduce image sizes and margins on games page */
+    .game-text {
+        width: 100%;
+    }
+    
+    .game-image-container {
+        width: 100%;
+    }
+    
+    .game-image {
+        max-width: 300px;
+    }
+    
+    .game-container {
+        padding: 0;
+    }
+
+    /* Stack contents of about section */
+    .right-text {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    
+    .left-text {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    
+    .left-about-image-container {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+    
+    .right-about-image-container {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+}
