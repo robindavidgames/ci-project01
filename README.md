@@ -94,11 +94,12 @@ Screenshot from ami.responsivedesign.is
 4. Text in the Meetup section was getting squashed on smaller resolution screens and eventually leaving the boudaries of the respective div. To solve this, I created a media query for screens 750px wide and created style rules to increase the width of the divs, to stack them, and to adjust the background images in each div.
 5. When checking accessibilty using Lighthouse, I discovered that I had mistyped meta data "viewport" as "viewpoint", rendering it useless to Chrome. This fixed a lot of bugs when I tried testing the website on Chrome, though these were not visible on Firefox, which is why the typo was missed for so long. 
 6. When testing on my own computer, images in the meetup section were displaying correctly, but not when viewed on other computers. The image links were incorrect but being displayed because they were in my browser cache. I corrected the links to show relative paths.
+7. On very narrow screens (less than 500pixels) elements on the game page became misaligned. Additionally, images in the About Us section shrank to very small sizes, becoming unreadable. To correct this, I added an additional media query to stack elements and limit the width of images.
+8. On very small screens, the navigation links stacked, which would be fine, but they did so in a non-ideal order. To solve this, I added a media query to reduce the font size and padding, keeping the navigation links on the same line.
 
 ### Outstanding Issues
 
-1. On very small screens, the navigation links stack but do so in a non-ideal order.
-2. On very narrow screens (less than 400pixels) elements on the game page can become misaligned. They are still readable, but less attractive. Additionally, images in the About Us section shrink to very small sizes.
+None.
 
 ## Validator Testing
     

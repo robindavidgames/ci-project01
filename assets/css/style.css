@@ -514,4 +514,11 @@ footer a {
         float: none;
         clear: both;
     }
+
+    /* Reduce size of navigation menu to prevent it stacking. */
+    #navigation li {
+        margin-right: 20px;
+        font-size: 100%;
+        line-height: 50px;
+    }
 }
